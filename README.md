@@ -49,16 +49,16 @@ Sends provided data which can either be a [`FormData`](https://developer.mozilla
 
 ##### Bracketization
 
-Marketfaux will automatically bracketize keys with array values to conform to PHP's naming conventions.
+Marketfaux will automatically bracketize keys with multiple values to conform to PHP's naming conventions. If those keys already have bracket notation, they will not be bracketized.
 
-**Input:**
+###### Input
 ```json
 {
   "key": ["value1", "value2"]
 }
 ```
 
-**Output (as FormData):**
+###### Output
 ```yaml
 key[]: value1
 key[]: value2
