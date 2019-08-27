@@ -2,10 +2,10 @@
   "name": "marketfaux",
   "version": "1.0.0",
   "description": "Send Marketo form data without actually using a Marketo form",
-  "main": "dist/marketfaux.js",
-  "module": "dist/marketfaux.es.js",
-  "jsnext:main": "dist/marketfaux.es.js",
-  "types": "dist/index.d.ts",
+  "main": "./dist/marketfaux.js",
+  "module": "./dist/marketfaux.es.js",
+  "jsnext:main": "./dist/marketfaux.es.js",
+  "types": "./dist/marketfaux.d.ts",
   "files": [
     "dist"
   ],
@@ -13,6 +13,7 @@
   "author": "czycha",
   "license": "MIT",
   "private": false,
+  "keywords": ["marketo"],
   "scripts": {
     "build": "bili",
     "build:watch": "yarn build --watch",
